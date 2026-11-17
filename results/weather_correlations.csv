@@ -1,0 +1,7 @@
+sample,variable,r,p_value,days,significant_at_0_05
+all_days,temperature,0.627,2.81062239758937e-81,731,True
+all_days,humidity,-0.101,0.006454143325437094,731,True
+all_days,wind_speed,-0.235,1.359958677886522e-10,731,True
+excluding_zero_humidity,temperature,0.628,2.924162652095154e-81,730,True
+excluding_zero_humidity,humidity,-0.115,0.00192275172798241,730,True
+excluding_zero_humidity,wind_speed,-0.233,1.9334898702295281e-10,730,True

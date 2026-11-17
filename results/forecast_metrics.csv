@@ -1,0 +1,7 @@
+model,test_days,mae,rmse,mean_actual,mean_predicted
+Training average,92,1752.1,2060.9,5165.4,4415.1
+Same date in 2011,92,1982.1,2306.2,5165.4,3402.2
+"Calendar only, with year",92,1358.4,1714.1,5165.4,5902.5
+"Known weather, without year",92,1742.5,1907.7,5165.4,3678.1
+"Known weather, with year",92,885.2,1232.8,5165.4,5564.1
+"Known weather, with year, excluding 29 Oct 2012",91,853.4,1174.6,5221.9,5583.5

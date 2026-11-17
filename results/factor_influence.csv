@@ -1,0 +1,10 @@
+factor,scope,share_of_variation,low_group,high_group,low_mean,high_mean,mean_gap
+Year,Daily rentals,0.321,2011,2012,3405.8,5599.9,2194.2
+Season,Daily rentals,0.347,Winter,Summer,2604.1,5644.3,3040.2
+Weather situation,Daily rentals,0.099,Light rain / snow,Clear / partly cloudy,1803.3,4876.8,3073.5
+Day of week,Daily rentals,0.006,Sunday,Friday,4228.8,4690.3,461.5
+Working day / weekend / holiday,Daily rentals,0.007,Holiday,Working day,3735.0,4584.8,849.8
+Hour of day,Hourly rentals,0.501,4,17,6.4,461.5,455.1
+Weather situation,Hourly rentals,0.021,Light rain / snow,Clear / partly cloudy,111.6,204.9,93.3
+Temperature (r-squared),Daily rentals,0.394,Colder days,Warmer days,,,
+Customer type,Share of daily rentals,,Weekday casual share,Weekend casual share,0.137,0.319,0.182

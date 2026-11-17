@@ -1,4 +1,39 @@
 # Bike-Sharing-Demand-Analysis
+
+Capital Bikeshare rentals for 2011 and 2012. The question is how to place bicycles where demand actually is.
+
+## Team
+
+| Member | Name | Role |
+| --- | --- | --- |
+| 1 | Ankit Kar | Data Analyst. Dataset, cleaning, repository, and this dictionary. |
+| 2 | Ahmad | Demand Analyst. Hours, days, months, and seasons. |
+| 3 | Timothy | Weather Analyst. Temperature, humidity, wind, and correlation tests. |
+| 4 | Tariq | Customer Analyst. Casual and registered riders, and the slides. |
+| 5 | Abhinav Singh | Project lead. Demand estimate, findings, notebook, report, and deck. |
+
+## How to run
+
+From this folder, with pandas, matplotlib, numpy, and scipy installed:
+
+```bash
+python Customer_analysis.py
+python weather_analysis.py
+```
+
+`bike_sharing_demand_analysis.ipynb` runs both scripts and shows the charts.
+
+## Files
+
+- `data/day.csv` and `data/hour.csv` are the original download.
+- `data/day_cleaned.csv` and `data/hour_cleaned.csv` are the shared cleaned copies. Rental counts are unchanged. Labels are added, and humidity recorded as 0 is cleared.
+- `DATA_DICTIONARY.md` defines every column.
+- `charts/` and `results/` are the saved figures and tables.
+- `technical_report.md` is the write-up.
+- `Bike Sharing Demand Analysis.pptx` is the team deck.
+- `Weather Analysis Slides.pptx` is Timothy's earlier weather deck and stays in the folder.
+
+## Project agenda
 How can a bike-sharing company optimize bicycle availability and resource allocation by understanding customer demand patterns and the factors influencing rentals?
 
 A. Research Questions

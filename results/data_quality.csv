@@ -1,0 +1,10 @@
+check,value,note
+zero_humidity_day,2011-03-10,22 hourly rows have humidity 0. Rentals stay in the demand totals. The day is excluded from the humidity correlation and from model fitting.
+missing_hour_rows,165,Absent hour rows are mostly 03:00 and 04:00. Hourly charts are averages per observed hour.
+short_days,8,Days with fewer than 20 observed hours.
+sandy_day,2012-10-29,"1 observed hour and 22 rentals, coded light rain/snow."
+light_rain_mean_with_sandy,1803.3,"Average daily rentals on light rain/snow days, including 29 Oct 2012."
+light_rain_mean_without_sandy,1892.3,Average daily rentals on the other light rain/snow days.
+severe_weather_hours,3,Too few hours to draw an hourly severe-weather pattern. Omitted from the hourly weather chart.
+severe_weather_days,0,"No day is coded severe weather, so the daily weather chart has three bars."
+season_names,calendar,"Source dictionary labels are reversed relative to the dates. Charts use Winter, Spring, Summer, and Fall."

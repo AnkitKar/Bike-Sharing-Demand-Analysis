@@ -1,0 +1,4 @@
+check,result,detail
+day_and_hour_totals_match,pass,Both files total 3292679 rentals.
+casual_plus_registered,pass,Checked on every daily row.
+correlation_p_values,pass,"Temperature, humidity, and wind are each tested at 0.05 in both samples."
